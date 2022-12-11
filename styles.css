@@ -1,0 +1,93 @@
+html {
+    --main-bg-color: brown;
+  }
+  
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+  }
+  main {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    z-index: 0;
+    width: minmax(300px, 700px);
+    height: minmax(600px, 1000px);
+  
+    background-color: antiquewhite;
+  }
+  
+  .quote-box {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-items: center;
+    background-color: antiquewhite;
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin: 4rem;
+    z-index: 3;
+    gap: 3rem;
+  }
+  .div-text {
+    height: minmax(4rem, 8rem);
+    width: 20rem;
+    margin: 2rem 2rem;
+    
+  }
+  .text {
+    font-family: Montserrat;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+  
+  }
+  
+  .div-author {
+    align-self: right;
+    height: 2rem;
+    margin-right: 1rem;
+  
+    margin-bottom: 1rem;
+  }
+  .author-text {
+    text-align: right;
+    font-style: italic;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .fa-brands {
+    align-self: baseline;
+    padding: 0.5rem;
+    font-size: 40px;
+  }
+  .button-quote {
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+    padding: 0.5rem;
+    border-radius: 10px;
+    align-self: center ;
+  }
